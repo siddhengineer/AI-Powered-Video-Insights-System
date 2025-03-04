@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI
 from pydantic import BaseModel
-from search_engine import load_faiss_index, load_text_chunks, search_faiss
+from deployment.search_engine import load_faiss_index, load_text_chunks, search_faiss
 from sentence_transformers import SentenceTransformer
 
 # Set up logging
